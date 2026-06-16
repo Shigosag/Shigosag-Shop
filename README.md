@@ -1,6 +1,6 @@
 # 🛒 Shigosag Shop
 
-A full-stack modern eCommerce web application built with React, Node.js, Express, Prisma, and PostgreSQL (Neon). It features product listing, shopping cart, admin product seeding, and responsive UI.
+A full-stack eCommerce web application built with React, Node.js, Express, Prisma, and PostgreSQL (Neon). It features product listing, shopping cart, admin product seeding, and responsive UI.
 
 ---
 
