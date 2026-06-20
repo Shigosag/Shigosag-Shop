@@ -56,6 +56,9 @@ Shigosag-Shop/
 
 ## ⚙️ Setup Instructions
 
+## Prerequisites
+- Node.js (v18+)
+
 ### Clone Repository
 
 ```bash
