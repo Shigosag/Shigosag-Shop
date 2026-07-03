@@ -15,9 +15,10 @@ A full-stack eCommerce web application built with React, Node.js, Express, Prism
 
 **Timestamps:**
 - **0:00** - Dashboard Light Mode Overview
-- **0:21** - Dashboard Dark Mode Overview
-- **0:36** - Cart Overview
-- **0:50** - GitHub Repository Overview
+- **0:13** - Dashboard Dark Mode Overview
+- **0:26** - Add to Cart
+- **0:40** - Cart Overview
+- **1:03** - GitHub Repository Overview
   
 ---
 
