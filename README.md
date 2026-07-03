@@ -7,6 +7,18 @@
 
 A full-stack eCommerce web application built with React, Node.js, Express, Prisma, and PostgreSQL (Neon). It features product listing, shopping cart, admin product seeding, and responsive UI.
 
+### 🎥 System Walkthrough & Demo
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/de09ef89-dd5d-4f8a-8fc6-b4c2b2d1bf6e" width="100%" controls></video>
+</div>
+
+**Timestamps:**
+- **0:00** - Dashboard Light Mode Overview
+- **0:21** - Dashboard Dark Mode Overview
+- **0:36** - Cart Overview
+- **0:50** - GitHub Repository Overview
+  
 ---
 
 ## 🚀 Features
@@ -56,6 +68,17 @@ Shigosag-Shop/
 │   └── index.html
 └── README.md
 ```
+
+----
+
+## 🖼️ Dashboard Preview
+
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![Light Mode Dashboard](screenshots/dashboard_light.png) | ![Dark Mode Dashboard](screenshots/dashboard_dark.png) |
+
+### Cart
+![Cart](screenshots/cart.png)
 
 ---
 
