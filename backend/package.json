@@ -21,6 +21,10 @@
   "devDependencies": {
     "prisma": "^6.8.2",
     "tsx": "^4.20.3",
-    "typescript": "^5.9.0"
+    "typescript": "^5.9.0",
+    "@types/node": "latest",
+    "@types/express": "latest",
+    "@types/cors": "latest",
+    "@types/multer": "latest"
   }
 }
