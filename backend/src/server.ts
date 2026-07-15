@@ -1,9 +1,6 @@
 import app from "./app.js";
 import productRoutes from "./routes/product.routes.js";
 import adminRoutes from "./routes/admin.routes";
-import express from "express";
-import cors from "cors";
-import dotenv from "dotenv";
 
 dotenv.config();
 
