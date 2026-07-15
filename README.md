@@ -5,7 +5,16 @@
 [![Neon](https://img.shields.io/badge/Neon-Serverless%20Postgres-00E599)](https://neon.tech/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A full-stack eCommerce web application built with React, Node.js, Express, Prisma, and PostgreSQL (Neon). It features product listing, shopping cart, admin product seeding, and responsive UI.
+A full-stack eCommerce platform built with React, Node.js, Express, Prisma ORM, and PostgreSQL (Neon). It includes product management, shopping cart functionality, responsive product grid, and a scalable REST API backend.
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Visit Shigosag Shop:**  
+https://shigosag-shop.up.railway.app
+
+---
 
 ### 🎥 System Walkthrough & Demo
 
