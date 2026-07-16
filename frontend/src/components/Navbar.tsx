@@ -13,6 +13,10 @@ export default function Navbar({ onCartOpen }: any) {
         padding: "12px",
         background: "var(--bg-color)",
         color: "var(--text-color)",
+        position: "sticky",
+        top: 0,
+        zIndex: 1000,
+        backdropFilter: "blur(10px)",
       }}
     >
        {/* LOGO */}
