@@ -12,7 +12,7 @@ A full-stack eCommerce platform built with React, Node.js, Express, Prisma ORM, 
 ## 🌐 Live Demo
 
 🚀 **Visit Shigosag Shop:**  
-https://shigosag-shop.up.railway.app
+https://shigosag-shop.vercel.app
 
 ---
 
