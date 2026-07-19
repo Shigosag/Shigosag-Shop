@@ -16,6 +16,6 @@ app.use("/uploads", express.static("public/uploads"));
 
 app.use("/api/products", productRoutes);
 
-app.listen(5000, () => {
-  console.log("🚀 Shigosag API Running");
+app.listen(process.env.PORT || 5000, () => {
+  console.log(`🚀 Shigosag API Running on port ${process.env.PORT || 5000}`);
 });
