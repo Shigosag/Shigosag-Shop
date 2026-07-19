@@ -2,7 +2,7 @@ name: Deploy to Faable
 on:
   push:
     branches:
-      - main
+      - backend
 permissions:
   id-token: write
   contents: write
