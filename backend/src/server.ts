@@ -8,6 +8,8 @@ dotenv.config();
 
 const app = express();
 
+const PORT = process.env.PORT || 5000;
+
 app.use(cors());
 app.use(express.json());
 
@@ -16,6 +18,10 @@ app.use("/uploads", express.static("public/uploads"));
 
 app.use("/api/products", productRoutes);
 
-app.listen(5000, () => {
-  console.log("🚀 Shigosag API Running");
+app.listen(PORT, () => {
+  console.log(`🚀 Shigosag API Running on port ${PORT}`);
+});
+
+app.get("/", (req, res) => {
+  res.send("Shigosag API Online");
 });
