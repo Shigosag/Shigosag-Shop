@@ -3,7 +3,7 @@ name: Deploy to Faable
 on:
   push:
     branches:
-      - main
+      - main # Change to your deployment branch if different
 
 permissions:
   id-token: write
@@ -15,12 +15,15 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
-    defaults:
-      run:
-        working-directory: backend
-
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
-      - run: npx @faable/faable@latest deploy
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20' # Or your preferred Node version
+
+      - name: Deploy Backend
+        working-directory: ./backend # Change to your exact directory path
+        run: npx @faable/faable@latest deploy
