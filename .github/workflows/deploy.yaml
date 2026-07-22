@@ -1,4 +1,4 @@
-      name: Deploy to Faable
+name: Deploy to Faable
 
 on:
   push:
@@ -16,23 +16,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
+    defaults:
+      run:
+        working-directory: backend
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+      - run: npx @faable/faable@latest deploy --verbose
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: '22'
-
-      - name: Test build
-        working-directory: ./backend
-        run: |
-          npm install
-          npm run build
-
-      - name: Deploy Backend
-        working-directory: ./backend
-        run: |
-          npx @faable/faable@latest deploy --verbose
-
